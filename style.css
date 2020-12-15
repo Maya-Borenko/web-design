@@ -14,12 +14,13 @@ body {
 
 table {
   border-collapse: collapse;
+  border-width: 0;
   margin-left: auto;
   margin-right: 0px;
 }
 
 td {
-    border: 2px solid;
+    border: 0 solid;
     border-color: lightgray;
     padding: 5px;
 }
