@@ -9,82 +9,101 @@
     <meta name="description" content="Описание страницы">
     <meta name="keywords" content="Портфолио">
     <link rel="shortcut icon" type="image/Favicon" href="img/Favicon.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="outlines.css">
     <title>Портфолио юного верстальщика</title>
-  </head>
-
-  <body>
-    <header class="page-header">
-        <div class="container">
-            <table>
-                <tr>
-                <td align="center"><a href="https://vk.com/nevro_tik">VK</a></td>
-                <td align="center"><a href="https://my.mail.ru/mail/borenko.maya/">Mail</a></td>
-                </tr>
-            </table>
+    </head>
+<body>
+    <div class="top_header">
+        <div class="logo_label">
+            <div class="design">designer</div>
+            <div class="my_name">Borenko Maya</div>
         </div>
-    </header>
-
-    <section class="hero-image">
-        <div class="container">
-      <h1 class="heading">Боренко Майя</h1>
-      <p>Юный верстальщик</p>
+    </div>
+    <div class="oders">
+        <table cellpadding=0 cellspacing=0 class="table_1">
+            <tr align="center">
+                <td class="table1">
+                    <h2 class="design_table">Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt pharetra dapibus. Praesent porta porta ipsum, in imperdiet ex suscipit sit amet. Donec maximus eros nulla, eget mattis risus dictum egeteu malesuada lectus egestas arcu.</p>
+                    <a class="submit">Order</a>
+                </td>
+                <td class="table2">
+                    <h2 class="layout_tabel">Layout</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget ipsum vitae risus faucibus venenatis. Donec ut nibh iaculis, vulputate dolor quis, cursus ligula. Nunc pharetra ex porta nunc pretium, eu malesuada lectus vestibulum</p>
+                    <a class="submit">Order</a>
+                </td>
+                <td class="table3">
+                    <h2 class="illustration_table">Illustrations</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec semper nulla vel vulputate ornare. Vivamus nec felis lectus. Ut tincidunt quam sagittis sapien porttitor, sit amet feugiat est sodales. Aenean at eleifend justo, euismod egestas arcu.</p>
+                    <a class="submit">Order</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+        <div class="power">
+            <h2 class="ul_name">Technology</h2>
+            <div class="spiski">
+            <ul class="ul_1">
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+            </ul>
+            <ul class="ul_2">
+                <li>CSS</li>
+                <li>XML</li>
+                <li>Python</li>
+            </ul>
+            </div>
         </div>
-    </section>
-
-    <section class="intro">
-        <div class="container">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе</h3>
-      <p>Мне 16 лет, я учусь работать с CSS и HTML. Предпочитаю не только учить теорию, но и пробовать себя на практике.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p></p>
+        <div class="works">
+            <h2 class="ul_name" style='color: black'>Examples</h2>
+            <br/>
+            <div class="img">
+                <img class="up" src="img/vk.png">
+                <img class="down" src="img/lenta.png">
+                <img class="up" src="img/lebedev.png">
+            </div>
+    </div>
+            <div class="about_me">
+                <h2 class="ul_name">About me</h2>
+                <div class="about_me_phototext">
+                <p class="about_me_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+                <div class="about_me_photo_div">
+                    <img class="about_me_photo" src="img/Ava.jpg">
+                </div>
+            </div>
+    </div>
+    <div class="forma">
+        <h2 class="ul_name" style="color:black">Contact</h2>
         </div>
-    </section>
-
-    <section class="portfolio">
-        <div class="container">
-      <h2 class="subheading">Мои работы</h2>
-
-      <h3>Сайт инструктора Кекса</h3>
-      <p>Небольшой лендинг о школе для начинающих.</p>
-
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
-        </div>
-    </section>
-
-            <p>Сделать заказ</p>
-      <form action="https://e.mail.ru/sent/" method="get">
+    <div class="form">
+        <form action="https://maya-borenko.github.io/web-design/" method="get">
       <label>
-          <div>
           ФИО
-            <div>
           <input type="text" name="name" placeholder="Фамилия Имя Отчество">
-      </label>
+        </label>
           
       <label>
-          <div>
           Номер телефона
-            </div>
           <input type="tel" name="tel" placeholder="+7(XXX)-XXX-XX-XX">
               </label>
           
-      <label>
-          <div>
+      <label class="knopka">
           <textarea rows="10">Описание заказа</textarea>
-        </div>
-              <div>
-          <input type="submit" name="Отправить" value="Отправить">
+          <div class="knopka_div">
+          <input class="submit" type="submit" name="Отправить" value="Send">
           </div>
           </label>
-          </form>
-                
-    <footer class="page-footer">
-        <div class="container">
+        </form>
+    </div>
+    
+</body>
+    
+    <footer>
+        <div class="s_s">
             <a href="https://vk.com/nevro_tik">VK</a>
             <a href="https://my.mail.ru/mail/borenko.maya/">Mail</a>
         </div>
     </footer>
-  </body>
+    
 </html>
